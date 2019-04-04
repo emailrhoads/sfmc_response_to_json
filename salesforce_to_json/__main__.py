@@ -1,6 +1,6 @@
-import json
-from suds-jurko.sudsobject import asdict #for v3+
-#from suds.sudsobject import asdict
+#import json
+#from suds-jurko.sudsobject import asdict #for v3+
+from suds.sudsobject import asdict
 
 '''
 Salesforce API will return two different payloads:
